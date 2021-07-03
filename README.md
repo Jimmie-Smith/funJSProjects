@@ -1,2 +1,2 @@
 # funJSProjects
-stuff that I code from bootcamps/ sideprojects and such
+stuff that I code from bootcamps, interviews, and sideprojects <3
