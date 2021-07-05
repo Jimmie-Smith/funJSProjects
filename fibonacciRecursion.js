@@ -1,6 +1,9 @@
-// 1,1,2,3,5,8,13
-
 /*
+Jimmie Smith
+Coding Assignment (Cummings Aerospace)
+07/05/2021
+
+
 The function below that logs to the console
 the values of the fibonacci sequence.
 The logic was difficult to wrap my head
@@ -83,9 +86,43 @@ through the fuction itself rather than through an array.
 /*
 so here, i just used a simple recursive functiion to 
 return numbers 1 - headCount, which is expressed as integer
-below
+below. So let's say I wanted to run the 'fibber' function five times;
+the data structure would look like this.
+
+
+                         Return 5
+
+                        fibCount(5)
+                         /
+              Return 4
+                        /
+                    fibCount(4)
+                      /
+            Return 3
+                     /
+                fibCount(3)
+                    /
+           Return 2
+                   /
+              fibCount(2)
+                  /
+        Return 1
+                 /
+            fibCount(1)
+                /
+     Return 0
+               /
+          fibCount(0)
+
+In the above function, the only thing I had to do after
+returning each value was run the returned value through
+functions 'fibber' within function 'fibCount'. Of course
+I didnt put the reserved word 'return' or else it would've 
+ended the function.
 */
-fibCount(15);
+
+fibCount(/*Enter a number here & watch the Magic :)*/);
+
 
 
 
