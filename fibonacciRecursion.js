@@ -76,7 +76,7 @@ through the fuction itself rather than through an array.
  function fibCount(headCount){
   if(headCount === 0) return;
   fibCount(headCount-1);
-  console.log(fibber(headcount));
+  console.log(fibber(headCount));
 } 
 
 
